@@ -20,7 +20,8 @@ pipeline {
     post {
     always {
         mail to: 'team@example.com',
-             subject: "Failed Pipeline”,
+             subject: “Failed Pipeline”,
              body: "Something is . . . "
+        }
     }     
 }
