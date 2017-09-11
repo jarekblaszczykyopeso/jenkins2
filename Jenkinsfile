@@ -20,6 +20,7 @@ pipeline {
     post {
         always {
             echo "Cos"
+            mail body: 'body only', subject: 'Subject only', to: 'jaroslaw.blaszczyk@yopeso.com'
         }
-    }     
+    }
 }
