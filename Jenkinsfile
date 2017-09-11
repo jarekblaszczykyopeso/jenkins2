@@ -18,8 +18,9 @@ pipeline {
         }
     }
     post {
-       always{
-         mail to: ‘jaroslaw.blaszczyk@yopeso.com’, subject “test sub”’, body “test body”        
-         }
-    }      
+    always {
+        mail to: 'team@example.com',
+             subject: "Failed Pipeline”,
+             body: "Something is . . . "
+    }     
 }
