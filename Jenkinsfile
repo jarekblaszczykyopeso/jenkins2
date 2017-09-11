@@ -20,7 +20,8 @@ pipeline {
     post {
         always {
             echo "Cos"
-            mail body: 'body only', subject: 'Subject only', to: 'jaroslaw.blaszczyk@yopeso.com'
+            //doesnt work mai, maybe because of authenitcation issues
+            //mail body: 'body only', subject: 'Subject only', to: 'jaroslaw.blaszczyk@yopeso.com'
         }
     }
 }
