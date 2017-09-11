@@ -19,7 +19,7 @@ pipeline {
     }
     post {
        always{
-         mail to ‘jaroslaw.blaszczyk@yopeso.com’, subject ‘test sub’, body ‘test body’        
+         mail to ‘jaroslaw.blaszczyk@yopeso.com’, subject “test sub”’, body “test body”        
          }
     }      
 }
